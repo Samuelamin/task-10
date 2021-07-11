@@ -1,0 +1,123 @@
+
+@media only screen and (max-width: 600px) {
+ .container  { width: 449px;position: relative;left: 39px;}
+}
+
+
+@media only screen and (min-width: 600px) {}
+
+
+@media only screen and (min-width: 768px) {}
+
+
+@media only screen and (min-width: 992px) {}
+
+
+@media only screen and (min-width: 1200px) {
+    .left-side{}
+}
+                                      
+                                       
+                                                                             
+                                       
+                                       
+                                       /*navbar*/
+.navbar{
+    background-color: #afb4ff;
+    top: 15px;
+    width: 105%;
+}
+
+.nav-item{
+    margin-left: 15px;
+   
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    transition: all 1s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:red;
+}
+                                             /*section-1*/
+.section-1{
+    position: relative;
+    top: 70px;
+   
+}
+.section-1 .part-1 img{
+    width: 450px;
+}
+
+.section-1 .part-2{
+    width: 400px;
+}
+                                             /*left-side*/
+.open-left{
+    cursor: pointer;
+    font-size: 39px;
+    position: absolute;
+    top: 11px;
+    left: 5px;
+}
+.left-side{
+    width: 0;
+    height: 100%;
+    position: fixed;
+    background-color: #1e7effcc;
+    z-index: 1;
+    transition:  0.2s;
+
+}
+#text{
+    position: absolute;
+    top: 104px;
+    left: 15px;
+    display:none;
+}
+#text h3{
+    color: white;
+    margin-bottom: 65px;
+
+}
+
+#text a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: revert;
+    transition: all 1s ease;
+}
+#text a:hover{
+    color: red;
+}
+#text span{
+    color: #ff4800;
+    margin-left: 58px;
+    font-family: sans-serif;
+}
+
+
+.section-2{
+        position: relative;
+        top: 100px;
+}
+.section-2 .btn{
+    width: 135px;
+    height: 42px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: aqua;
+    color: red;
+    font-size: 21px;
+    font-family: system-ui;
+    margin: 10px 5px 0 0;
+    
+}
+
+.section-2 #demo{
+    text-align: center;
+    font-size: 27px;
+    
+}

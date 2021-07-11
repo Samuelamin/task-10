@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  
+                                          <!--left-->
+  <div class="left-side " id="left" >
+
+     <div id="text">
+      <h3>JS <span>TASK 9</span></h3>
+      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link" href="#">About </a>
+      <a class="nav-link" href="#">Contact us</a>
+      <a class="nav-link" href="#">Featurs</a>
+    </div>
+
+    <span onclick="openleft()" class="open-left" >&#9776;</span>
+  </div>
+                                          <!--middel-->
+    <div class="middel  ">
+                                          <!--navbar-->
+     <div class="container">    
+        <nav class="navbar navbar-expand-lg  navbar-light ">
+            <a class="navbar-brand" href="#">Navbar</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" onclick="opennav()"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav" id="nav-items">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+              
+              </ul>
+            </div>
+          </nav>
+    </div>
+                                         <!--section-1-->
+
+   <section class="section-1">
+       <div class="container">
+           <div class="row">
+
+               <div class="part-1 col-xl-6 col-lg-6 col-md-8 col-sm-12">
+                   <img src="photos/tree-838667.jpg" alt="">
+               </div>
+               <div class="part-2 col-xl-6 col-lg-6 col-md-6  ">
+                   <h1>Find Your Peace</h1>
+                   <p>Life today is more chaotic than ever before. Peace is a concept very few fully
+                        understand, often described as the absence of violence and conflict. Very
+                         few identify with the deeper workings of the very foundations of ‘peace’.
+                          Economic stability, criminal activity both violent and non-violent, 
+                          political harmony, riots and demonstrations, social unrest, right down to
+                           the honesty and integrity of an individual who make up our communities 
+                           are all factors which contribute to the levels of a societies 
+                           ‘peacefulness’</p>
+               </div>
+           </div>
+       </div>
+   </section>
+                                         <!--section-2-->
+
+     <section class="section-2">  
+      <div class="container">
+      
+      <button  class="btn" onclick="myFunction()">Add end</button>
+      <button  class="btn" onclick="myFunction2()">remove end</button> <br>
+      <button  class="btn" onclick="myFunction3()">Add first</button>
+      <button  class="btn" onclick="myFunction4()">remove first</button>
+      <p id="demo" class="col-sm-12 col-12"></p>
+   
+
+
+
+
+
+
+  </div>
+     </section>
+ 
+    </div>
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+    <script src="bootstrab/bootstrap.min.js"></script>
+    <script src="bootstrab/jquery-3.5.1.slim.min.js"></script>
+    <script src="bootstrab/popper.min.js"></script>
+</body>
+</html>
